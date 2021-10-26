@@ -1,11 +1,26 @@
 import * as React from "react"
-import { container } from "./layout.module.scss"
+import { Container,
+    Nav_wrapper,
+    logo_wrapper,
+    Nav_wrapper__ul
+} from "./ui/layout.module.scss"
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div className={container}>
-            <title>{pageTitle}</title>
-            <nav>
+        <div className={Container}>
+            <nav className={Nav_wrapper}>
+                <div className={logo_wrapper}>
+                    A|R
+                </div>
+                <ul className={Nav_wrapper__ul}>
+                    <li>Home</li>
+                    <li>Projects</li>
+                    <li>Blogs</li>
+                </ul>
+            </nav>
+            <main></main>
+            <footer></footer>
+            {/* <nav class={nav-wrappper}>
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -14,13 +29,16 @@ const Layout = ({ pageTitle, children }) => {
                     <li>Contact</li>
                 </ul>
             </nav>
-            <main>
-                <h1>{pageTitle}</h1>
-                {children}
-            </main>
+            <div>
+                <title>{pageTitle}</title>
+                    <main>
+                        <h1>{pageTitle}</h1>
+                        {children}
+                    </main>
+            </div>
             <footer>
                 <p>This is a footer</p>
-            </footer>
+            </footer> */}
         </div>
     )
 }

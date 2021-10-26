@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+// https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51
+// https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
+// https://coolors.co/fec5bb-fcd5ce-fae1dd-f8edeb-e8e8e4-d8e2dc-ece4db-ffe5d9-ffd7ba-fec89a
+// https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+    background-color: #f2e9e4;
+    // background-color: #e9ecef;
+}
+
+.Container,
+.Nav_wrapper {
+    margin: auto;
+    padding: 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    height: 64px;
+    background-color: white;
+    
+    .logo_wrapper {
+        display: block;
+        font-weight: 400;
+        color: #22223B;
+        font-size: 48px;
+
+        &:hover {
+            color: #2A9D8F;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .Nav_wrapper__ul {
+        display: flex;
+        list-style-type: none;
+        color: #264653;
+
+        // .li {
+        //     color: #264653;
+        //     padding-left: 40px;
+        // }
+    }
+}
