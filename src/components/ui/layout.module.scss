@@ -88,3 +88,11 @@ main {
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     }
 }
+
+.Blog {
+    padding: 0;
+    height: 704px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1D3557;
+}

@@ -2,7 +2,8 @@ import * as React from "react"
 import { Container,
     Hero,
     Section_title,
-    Image_wrapper
+    Image_wrapper,
+    Blog
 } from "./ui/layout.module.scss"
 import Navbar from "./navbar"
 // import { StaticImage } from 'gatsby-plugin-image'
@@ -28,6 +29,9 @@ const Layout = ({ pageTitle, children }) => {
                         {children}
                     </div>
                     <div className={Image_wrapper}></div>
+                </section>
+                <section class={Blog}>
+
                 </section>
             </main>
         </div>
