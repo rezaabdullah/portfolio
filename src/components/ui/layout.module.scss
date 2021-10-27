@@ -10,6 +10,8 @@
     text-decoration: none;
     font-family: "IBM Plex Mono", monospace;
     background-color: #f2e9e4;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .Container {
@@ -23,78 +25,65 @@
     align-items: center;
 }
 
-#Hero {
-    display: flex;
-    background-color: white;
+main {
     width: 100%;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: space-between;
-    height: 684px;
-
-    .Section_title {
-        flex-grow: 1;
-        color: #1d3557;
-        align-items: flex-start;
-        width: 100%;
-
-        h1 {
-            margin-top: 48px;
-            padding: 0;
-            font-size: 54px;
-            font-weight: 300;
-            line-height: 64px;
-        }
-
-        h2 {
-            padding: 48px;
-            font-size: 32px;
-            line-height: 40px;
-            font-weight: 400;
-        }
-    }
-
-    .Image_wrapper {
-        width: 100%;
-        flex-grow: 1;
-    }
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 #Hero {
-    flex-grow: 1;
-    display: flex;
-    background-color: white;
-    width: 100%;
-    margin: 0;
     padding: 0;
-    align-items: center;
-    justify-content: space-between;
-    height: 684px;
+    height: 704px;
+    display: flex;
+    flex-direction: row;
 
     .Section_title {
         flex-grow: 1;
-        color: #1d3557;
-        align-items: flex-start;
+        width: 50%;
+        margin-top: 132px;
+        margin-bottom: 68px;
 
         h1 {
-            margin-top: 48px;
+            margin: 0;
             padding: 0;
+            color: #1d3557;
             font-size: 54px;
+            line-height: 84px;
             font-weight: 300;
-            line-height: 64px;
         }
 
         h2 {
-            padding: 48px;
+            margin: 0;
+            padding: 32px 0 0 0;
+            color: #457B9D;
             font-size: 32px;
             line-height: 40px;
             font-weight: 400;
+
+            span {
+                font-size: 32px;
+                line-height: 40px;
+                font-weight: 400;
+                color: #E63946;
+            }
+        }
+
+        p {
+            padding-top: 32px;
+            font-size: 16px;
+            line-height: 20px;
+            color: #457B9D;
         }
     }
 
     .Image_wrapper {
         flex-grow: 1;
+        align-items: flex-end;
+        width: 50%;
+        margin-top: 132px;
+        margin-bottom: 68px;
+        background-image: url("../../images/abdullah_reza.png");
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     }
 }
-

@@ -13,7 +13,9 @@ const IndexPage = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </Helmet>
             <Layout pageTitle="Home Page">
-                <p>This is my portfolio</p>
+                <p>A generalized specialist with expertise in building scalable digital solutions.
+                    Previously developed AI enhanged in renewable industry, advertising and
+                    marketing and currently leading a team for digital transformation in Bangladesh.</p>
             </Layout>
         </div>
     )
