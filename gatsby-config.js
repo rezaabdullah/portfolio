@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Abdullah Reza",
+    siteUrl: "https://abdullahreza.gatsbyjs.io/",
+    title: "Abdullah Reza | Portfolio",
+    author: "Abdullah Reza",
+    description: "Portfolio of Abdullah Reza, a philomath with interests in developing digital solution"
   },
   plugins: [
     "gatsby-plugin-sass",

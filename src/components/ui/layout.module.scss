@@ -43,6 +43,7 @@ main {
         width: 50%;
         margin-top: 132px;
         margin-bottom: 68px;
+        flex-direction: column;
 
         h1 {
             margin: 0;
@@ -75,6 +76,30 @@ main {
             line-height: 28px;
             padding-right: 32px;
             color: #457B9D;
+        }
+
+        .social_media {
+            display: block;
+            margin: 32px 0 68px 0;
+            background-color: #1d3557;
+
+            ul {
+                display: flex;
+                align-items: flex-start;
+                list-style-type: none;
+
+                li:nth-child(1) {
+                    padding-left: 0px;
+                }
+
+                li:nth-child(2) {
+                    padding-left: 32px;
+                }
+
+                li:nth-child(3) {
+                    padding-left: 32px;
+                }
+            }
         }
     }
 
