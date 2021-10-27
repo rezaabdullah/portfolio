@@ -14,7 +14,7 @@ const IndexPage = () => {
             </Helmet>
             <Layout pageTitle="Home Page">
                 <p>A generalized specialist with expertise in building scalable digital solutions.
-                    Involved in developing scalable solutions in renewable industry, advertising and
+                    Previously developed AI enhanged in renewable industry, advertising and
                     marketing and currently leading a team for digital transformation in Bangladesh.</p>
             </Layout>
         </div>
