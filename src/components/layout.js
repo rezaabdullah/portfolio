@@ -1,35 +1,26 @@
 import * as React from "react"
-// import { Container,
-//     Nav_wrapper,
-//     logo_wrapper,
-//     Nav_wrapper__ul,
-//     Hero
-// } from "./ui/layout.module.scss"
 import { Container,
-    Hero
+    Hero,
+    Section_title,
+    Image_wrapper
 } from "./ui/layout.module.scss"
 import Navbar from "./navbar"
 
 const Layout = ({ pageTitle, children }) => {
     return (
         <div className={Container}>
-            {/* <nav className={Nav_wrapper}>
-                <div className={logo_wrapper}>
-                    A|R
-                </div>
-                <ul className={Nav_wrapper__ul}>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Blogs</a></li>
-                </ul>
-            </nav> */}
             <Navbar/>
             <main>
                 <section id={Hero}>
-                    <h1>{pageTitle}</h1>
+                    <div className={Section_title}>
+                        <h1>{pageTitle}</h1>
+                        {/* <h2>This is a random text</h2> */}
+                    </div>
+                    <div className={Image_wrapper}>
+                        <h1>{pageTitle}</h1>
+                    </div>
                 </section>
             </main>
-            <footer></footer>
         </div>
     )
 }
