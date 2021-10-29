@@ -8,7 +8,8 @@
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-    position: fixed;
+    position: absolute;
+    top: 0;
     overflow: hidden;
     height: 64px;
     border-bottom: #457b9d 1px solid;
@@ -29,6 +30,7 @@
     .Nav_wrapper__ul {
         display: flex;
         list-style-type: none;
+        text-decoration: none;
 
         li {
             text-decoration: none;
